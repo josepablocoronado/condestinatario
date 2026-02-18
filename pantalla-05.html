@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confirmar datos de destinatario</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="phone">
+    <!-- Header -->
+    <div class="header-nav">
+      <button class="back-btn" onclick="go('pantalla-4.html')">←</button>
+      <span class="title">Envío de dinero al extranjero</span>
+    </div>
+    <!-- Step label -->
+    <div class="content" style="padding-top: 16px;">
+      <div class="form-header">
+        <span class="form-header-icon"></span>
+        <span class="form-header-title">Confirmar datos de destinatario</span>
+      </div>
+      <!-- Destinatario -->
+      <p class="cd-section-title">Destinatario</p>
+      <div class="confirm-card">
+        <div class="cc-row">
+          <span class="cc-icon"></span>
+          <div class="cc-content">
+            <div class="cc-label">Nombre</div>
+            <div class="cc-value">Alejandro Rojas</div>
+          </div>
+        </div>
+        <div class="cc-row">
+          <span class="cc-icon"></span>
+          <div class="cc-content">
+            <div class="cc-label">País</div>
+            <div class="cc-value">Perú</div>
+          </div>
+        </div>
+        <div class="cc-row">
+          <span class="cc-icon"></span>
+          <div class="cc-content">
+            <div class="cc-label">Nº documento identidad</div>
+            <div class="cc-value">875416546</div>
+          </div>
+        </div>
+      </div>
+      <!-- Cuenta de destino -->
+      <p class="cd-section-title">Cuenta de destino</p>
+      <div class="confirm-card">
+        <div class="cc-row">
+          <span class="cc-icon"></span>
+          <div class="cc-content">
+            <div class="cc-label">Banco</div>
+            <div class="cc-value">Banco de Crédito del Perú</div>
+          </div>
+        </div>
+        <div class="cc-row">
+          <span class="cc-icon"></span>
+          <div class="cc-content">
+            <div class="cc-label">Tipo de pago</div>
+            <div class="cc-value">Depósito bancario</div>
+          </div>
+        </div>
+        <div class="cc-row">
+          <span class="cc-icon">💱</span>
+          <div class="cc-content">
+            <div class="cc-label">Moneda</div>
+            <div class="cc-value">Soles</div>
+          </div>
+        </div>
+        <div class="cc-row">
+          <span class="cc-icon"></span>
+          <div class="cc-content">
+            <div class="cc-label">Tipo de cuenta</div>
+            <div class="cc-value">Cuenta corriente</div>
+          </div>
+        </div>
+        <div class="cc-row">
+          <span class="cc-icon">#️</span>
+          <div class="cc-content">
+            <div class="cc-label">Número de cuenta</div>
+            <div class="cc-value">15425848620</div>
+          </div>
+        </div>
+      </div>
+      <!-- Checkbox confirmación -->
+      <div class="chk-row">
+        <input type="checkbox" id="confirmar-check" checked />
+        <label for="confirmar-check">Confirmo que los datos son correctos</label>
+      </div>
+      <!-- Botones -->
+      <button class="btn btn-primary mt-2" onclick="window.location.href='pantalla-12.html'">Confirmar</button>
+      <button class="btn btn-link mt-1">Editar datos</button>
+    </div>
+  </div>
+</body>
+</html>
